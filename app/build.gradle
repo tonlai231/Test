@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.j8.doubletapsleep'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.j8.doubletapsleep'
+        minSdk 28
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
